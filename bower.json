@@ -1,0 +1,24 @@
+{
+  "name": "num_o_matic",
+  "description": "Web application translating numbers into words",
+  "main": "main.js",
+  "authors": [
+    "Vincent Dal Maso"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Urriel/Num_O_matic",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5",
+    "angular-animate": "^1.5.5",
+    "angular-toastr": "^1.7.0"
+  }
+}

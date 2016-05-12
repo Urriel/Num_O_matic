@@ -1,0 +1,19 @@
+//
+   Created by Urriel.
+
+extends layout
+
+block body
+    div(ng-controller='MainController as controller')
+        .row
+            .col-md-6
+                h1 System Media Test
+                form.form-inline(ng-submit='')
+                    .form-group
+                        input.form-control(type='text', placeholder='Number to translate', ng-model="controller.input", ng-change="controller.submit()")
+                    button.btn.btn-info(type='submit') Translate
+        br
+        .row
+            .col-md-12
+                h3.col-md-12.text-center {{controller.answer}}
+

@@ -1,0 +1,30 @@
+{
+  "name": "num_o_matic",
+  "version": "0.0.1",
+  "description": "Web application translating numbers into words",
+  "main": "main.js",
+  "scripts": {
+    "preinstall": "bower install",
+    "start": "node main.js",
+    "test": "mocha test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urriel/Num_O_matic.git"
+  },
+  "author": "Vincent Dal Maso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urriel/Num_O_matic/issues"
+  },
+  "homepage": "https://github.com/Urriel/Num_O_matic#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
